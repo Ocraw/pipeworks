@@ -71,7 +71,7 @@ if minetest.get_modpath("mesecons") and pipeworks.enable_detector_tube then
 		output = "pipeworks:detector_tube_off_1 2",
 		recipe = {
 			{ "pipeworks:plastic_sheet", "pipeworks:plastic_sheet", "pipeworks:plastic_sheet" },
-			{ "mesecons:mesecon", "mesecons_materials:silicon", "mesecons:mesecon" },
+			{ "mesecons:mesecon", "pipeworks:silicon", "mesecons:mesecon" },
 			{ "pipeworks:plastic_sheet", "pipeworks:plastic_sheet", "pipeworks:plastic_sheet" }
 		},
 	})
@@ -131,7 +131,7 @@ if digiline_enabled and pipeworks.enable_digiline_detector_tube then
 		output = "pipeworks:digiline_detector_tube_1 2",
 		recipe = {
 			{ "pipeworks:plastic_sheet", "pipeworks:plastic_sheet", "pipeworks:plastic_sheet" },
-			{ "digilines:wire_std_00000000", "mesecons_materials:silicon", "digilines:wire_std_00000000" },
+			{ "digilines:wire_std_00000000", "pipeworks:silicon", "digilines:wire_std_00000000" },
 			{ "pipeworks:plastic_sheet", "pipeworks:plastic_sheet", "pipeworks:plastic_sheet" }
 		},
 	})

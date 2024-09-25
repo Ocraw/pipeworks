@@ -55,6 +55,19 @@ minetest.register_craft({
 	burntime = 30,
 })
 
+minetest.register_craftitem("pipeworks:silicon", {
+	description = S("Silicon lump"),
+	inventory_image = "pipeworks_silicon.png",
+})
+
+minetest.register_craft( {
+	output = "pipeworks:silicon 4",
+	recipe = {
+		{materials.sand, materials.sand},
+		{materials.sand, materials.steel_ingot},
+	},
+})
+
 minetest.register_craft({
 	type = "fuel",
 	recipe = "pipeworks:paraffin",
