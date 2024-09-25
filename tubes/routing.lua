@@ -4,9 +4,9 @@ pipeworks.register_tube("pipeworks:tube", S("Pneumatic tube segment"))
 minetest.register_craft( {
 	output = "pipeworks:tube_1 6",
 	recipe = {
-	        { "basic_materials:plastic_sheet", "basic_materials:plastic_sheet", "basic_materials:plastic_sheet" },
+	        { "pipeworks:plastic_sheet", "pipeworks:plastic_sheet", "pipeworks:plastic_sheet" },
 	        { "", "", "" },
-	        { "basic_materials:plastic_sheet", "basic_materials:plastic_sheet", "basic_materials:plastic_sheet" }
+	        { "pipeworks:plastic_sheet", "pipeworks:plastic_sheet", "pipeworks:plastic_sheet" }
 	},
 })
 
